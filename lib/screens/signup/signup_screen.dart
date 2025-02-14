@@ -57,7 +57,7 @@ class _SignupScreenState extends State<SignupScreen> {
                       ),
                     ),
                     const SizedBox(height: 30),
-                    CustomInAppButton(
+                    CustomButton(
                       text: "Sign up with Google",
                       iconPath: AppIcons.googleIcon,
                       color: AppColors.input2Background,
@@ -97,7 +97,7 @@ class _SignupScreenState extends State<SignupScreen> {
           // Continue button at the bottom
           Padding(
             padding: const EdgeInsets.all(20),
-            child: CustomInAppButton(
+            child: CustomButton(
               text: "Continue",
               onPressed: _submitForm,
             ),

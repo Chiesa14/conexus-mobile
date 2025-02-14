@@ -1,4 +1,4 @@
-import 'package:conexus/screens/main_screen.dart';
+import 'package:conexus/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -21,7 +21,7 @@ class ConnexusApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MainScreen(),
+      home: SplashScreen(),
     );
   }
 }

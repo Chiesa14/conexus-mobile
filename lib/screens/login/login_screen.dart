@@ -103,7 +103,7 @@ class _LoginScreenState extends State<LoginScreen> {
           // Continue button at the bottom
           Padding(
             padding: const EdgeInsets.all(20),
-            child: CustomInAppButton(
+            child: CustomButton(
               text: "Continue",
               onPressed: _submitForm,
             ),

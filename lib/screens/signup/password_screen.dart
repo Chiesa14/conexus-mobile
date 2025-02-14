@@ -80,7 +80,7 @@ class _PasswordScreenState extends State<PasswordScreen> {
           ),
           Padding(
             padding: const EdgeInsets.all(20),
-            child: CustomInAppButton(
+            child: CustomButton(
               text: "Continue",
               onPressed: _submitForm,
             ),
