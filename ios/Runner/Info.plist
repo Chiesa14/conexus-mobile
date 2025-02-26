@@ -47,5 +47,9 @@
 	<true/>
 	<key>io.flutter.embedded_view_preview</key>
 	<string>YES</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app needs microphone access for speech recognition</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>This app needs speech recognition</string>
 </dict>
 </plist>
