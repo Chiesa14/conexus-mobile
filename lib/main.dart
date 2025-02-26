@@ -1,4 +1,3 @@
-import 'package:conexus/screens/intermediate_splash_screen.dart';
 import 'package:conexus/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
