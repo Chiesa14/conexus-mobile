@@ -20,7 +20,6 @@ class _LoginScreenState extends State<LoginScreen> {
 
   void _submitForm() {
     if (_formKey.currentState?.validate() ?? false) {
-      // Proceed with signup
       print("Valid input! Proceeding with signup...");
     } else {
       print("Invalid input!");
@@ -99,8 +98,6 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
             ),
           ),
-
-          // Continue button at the bottom
           Padding(
             padding: const EdgeInsets.all(20),
             child: CustomButton(
